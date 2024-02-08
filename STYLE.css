@@ -9,9 +9,9 @@ body{
 .header{
     height: 73px;
     outline: 1px solid #ccc;
-    padding:0px 10px;
-    display:flex;
-    align-items:center;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 5px;
@@ -21,50 +21,104 @@ body{
     text-align: center;
 }
 .logocontainer{
-    background-color: rgb(95, 6, 51);
+    display: flex;
     height: 70px;
-    width:150px;
+    width: 150px;
 
 
+}
+.searchcontainer{
+    width: 300px;
+    height: 45px;
+    outline: 1px solid rgb(126, 126, 126);
+   display: flex;
+   margin-left: 25px;
+   border-radius: 3px;
+   align-items: center;
+   padding: 5px;
+}
+
+.searchIcon{
+    width: 20px;
+}
+.inputSearch{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.img{
+
+    width: 100px;
+    height: 70px;
 }
 
 .searchcontainer{
-    background-color: rgb(56, 164, 184);
+   
     height: 70px;
     width: 200px;
 
+}
+
+
+.headerright{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+.mobileIcon{
+    width: 15px;
+    margin: 2px;
 }
 .downloadapp{
-    background-color: rgb(56, 164, 184);
-    height: 70px;
-    width: 200px;
-
+    display: flex;
+    align-items: center;
+    height: 100px;
 }
+
+
 .supplier{
-    background-color: rgb(56, 164, 184);
-    height: 70px;
-    width: 190px;
+    padding: opx 30px;
+    border-left: 1.5px solid #ccc;
+    border-right: 1.5px solid #ccc;
+    font-size: 17px;
+    
 
   
 }
 .newsroom{
-    background-color: rgb(56, 164, 184);
-    height: 70px;
-    width: 190px;
+    padding: opx 30px;
+    
+    border-right: 1.5px solid #ccc;
 
+}
+.profileandcart{
+    display: flex;
+    align-items: center;
+}
+.profileandcart p{
+    margin: 0;
+    padding: 0;
 }
 .profile{
-    background-color: rgb(56, 164, 184);
-    height: 70px;
-    width: 190px;
-
+    padding: 10px;
 }
+.profileIcon{
+    width: 15px;
+    margin: 2px;
+}
+
+
 .cart{
-    background-color: rgb(56, 164, 184);
-    height: 70px;
-    width: 190px;
+    padding: 10px;
 
 }
+.cartIcon{
+    width: 15px;
+    margin: 2px;
+}
+
 .menu{
     display: flex;
     flex-direction: row;
@@ -76,38 +130,12 @@ body{
 
 }
 
-.item1{
-    background-color: rgb(13, 105, 75);
 
-}
-.item2{
-    background-color: rgb(13, 105, 75);
-}
-.item3{
-    background-color: rgb(13, 105, 75);
-}
-.item4{
-    background-color: rgb(13, 105, 75);
-}
-.item5{
-    background-color: rgb(13, 105, 75);
-}
-.item6{
-    background-color: rgb(13, 105, 75);
-}
-.item7{
-    background-color: rgb(13, 105, 75);
-}
-.item8{
-    background-color: rgb(13, 105, 75);
-}
-.item9{
-    background-color: rgb(13, 105, 75);
-}
+
 
 .body1{
     display:flex;
-    background-color: rgb(58, 145, 151);
+   
     justify-content: center;
     align-items: center;
     height: 600px;
@@ -151,4 +179,3 @@ body{
     height: 300px;
     width: 450px;
 }
-
